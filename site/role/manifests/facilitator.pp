@@ -1,6 +1,6 @@
 class role::facilitator {
 
-  notify { 'applying role::facilitator' }
+  notify { 'applying role::facilitator': }
 
   include profile::ptplaptop::apps
   include profile::ptplaptop::config

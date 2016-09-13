@@ -1,5 +1,5 @@
 class profile::unmoderated::config {
 
-  notify { 'applying profile::unmoderated::confg' }
+  notify { 'applying profile::unmoderated::confg': }
 
 }

@@ -22,6 +22,6 @@
 # specified in the console for that node.
 
 node default {
-  notify { 'applying node default configuration' }
+  notify { 'applying node default configuration': }
   include role::facilitator
 }
