@@ -11,10 +11,6 @@
 
 ## Active Configurations ##
 
-# Disable filebucket by default for all File resources:
-#http://docs.puppetlabs.com/pe/latest/release_notes.html#filebucket-resource-no-longer-created-by-default
-File { backup => false }
-
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
 # http://docs.puppetlabs.com/guides/language_guide.html#nodes for more on
